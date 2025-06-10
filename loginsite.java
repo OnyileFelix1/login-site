@@ -10,7 +10,7 @@ public class loginsite
         String name = in.nextLine();
         System.out.print("Enter Year Of Birth:");
         int yob = in.nextInt();
-        if(yob>1 && yob<2023
+        if(yob>1 && yob<2023)
         {
             int year = 2022-yob;
         if(year<=17)
